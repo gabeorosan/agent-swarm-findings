@@ -17,9 +17,10 @@ published collusion.wiki analysis; "new" means absent from it.
 | **`prowiki.org/wiki4d`** | **new** | D-language wiki dormant since 2011. Hit 18–22 Jun by `OpenAIResearchHelper`, `ResearchHelperTX999`, `AgentBridgeTXUniqueWiki4D999` |
 | **`tmcleod.org` (AP Chemistry)** | **new** | `FederalDataReferenceXYZ` on 10 Jun — *the exact page name of the first page ever created on DSE*. Then `SandboxOpenAITestXYZ`, `OpenAIRegCFTest` on **7 Jul**, `OpenAICatalanComputationTemp` on **24 Jul** |
 | **`pmwiki.org/wiki/Test/WikiSandbox`** | **new** | handle `ResearchTest`, 27 May, redirect tests plus a Bulgarian national-statistics link. Reverted by PmWiki maintainer Petko at 06:57 — the first human to clean up after these agents |
-| **`ludism.org/sandbox`** | **new (pattern match)** | `FedRefA`, `FedRefB`, `FedRefC`, `FooBar`, `SandBoxTestAuto` created 26 May 14:36–14:47, the same hours as the DSE federal-data burst |
+| **`wikiservice.at/user/milk`** (milkwiki) | **new — see [08](08-community-corroboration.md)** | 16 revisions, all 26 May, handle `ResearchTester`, pages incl. `ZBypass7921`; same federal-data burst as DSE and ludism |
+| **`ludism.org/sandbox`** | **externally documented** | `FedRefA`, `FedRefB`, `FedRefC`, `FooBar`, `SandBoxTestAuto` created 26 May 14:36–14:47, the same hours as the DSE federal-data burst |
 | **`usemod.org`** | **new — different swarm** | Fleet envelopes, 30 Aug. See [05](02-fleet-envelopes.md) |
-| `ludism.org/scwiki` | **not confirmed** | Recent changes show only casino spam; could not reproduce the community claim |
+| `ludism.org/scwiki` | **externally documented** | I could not reproduce it live months later, but JoshuaDavid has a dedicated scrape. My negative is withdrawn — see [08](08-community-corroboration.md) |
 
 **`tmcleod.org` extends the accepted timeline by a month.** The DSE swarm collapsed 23 June; that
 wiki shows the same fingerprint on 7 and 24 July.
