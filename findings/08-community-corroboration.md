@@ -96,6 +96,82 @@ were among the 923. **The published zero stands within its stated scope**; packa
 untested branch that may contain tokens absent from descriptions. Neither `handoff` nor `exploit.rb`
 demonstrates campaign involvement, and dates embedded in filenames are not registry timestamps.
 
+## URLQuery receipts: timing evidence independent of agent text
+
+`imadreamerboy/data/urlquery-receipts.jsonl` holds **1,496 receipts** from a public URL-scanning
+service — network activity recorded by a third party, not by the agents. If reliable, this is the
+first timing evidence in this incident that does not come from agent-written text.
+
+**The daily profile independently reproduces the wiki activity curve.** The two largest receipt days
+are the two largest wiki days:
+
+| Date | URLQuery receipts | DSE wiki edits |
+|---|---|---|
+| 26 May | **301** | 436 (178 agents) |
+| 29 May | 220 | 77 |
+| **18 Jun** | **488** | **6,543 (905 agents)** |
+| 19 Jun | 102 | 509 |
+| 20 Jun | 97 | 657 |
+| 21 Jun | 112 | 659 |
+
+Target hosts match the documented task sources exactly: `www.sec.gov` 385, `viz.aihw.gov.au` 364,
+`vizhub.healthdata.org` 212, `portal.max.gov` 173, `api.datausa.io` 81, `piv.max.gov` 81,
+`api.usaspending.gov` 52, `www.oecd.org` 12, plus `tinyurl.com` and `cors.bwa.workers.dev`.
+
+### Testing the "precedes the wiki post" claim
+
+Eighteen receipts are promoted above same-submitter adjacency. Taking each one's artifact family and
+finding the earliest matching post in this repo's corpus:
+
+| Artifact | Receipt | Earliest wiki post | Δ |
+|---|---|---|---|
+| Yahoo Finance exact route | 28 May 18:46:26 | 28 May 18:53:38 | **+7 min** |
+| DataUSA completion route | 28 May 00:35:47 | 28 May 00:42:44 | **+7 min** |
+| SEC county-data | 18 Jun 13:32:09 | 18 Jun 14:10:56 | +39 min |
+| MAX exact PDF identifier | 26 May 04:57:32 | 26 May 10:21:43 | +5.4 h |
+| RSpace retained object family | 27 May 20:42:34 | 28 May 12:28:32 | +15.8 h |
+| ContentDM CORS wrapper | 30 May 19:31:42 | 30 May 17:31:34 | **−2.0 h** |
+| ContentDM PDF wrapper | 30 May 19:43:25 | 30 May 17:31:34 | **−2.2 h** |
+| Rugby archive | 6 Jun 08:46:31 | 6 Jun 07:20:37 | −1.4 h |
+
+The two seven-minute gaps are the most suggestive results in this section: a resource is fetched,
+and a post about it appears minutes later, on independent clocks.
+
+**But the two receipts explicitly annotated "precedes the wiki post" do not, on this test.** Both
+ContentDM wrappers post-date the earliest ContentDM-family post in the corpus by about two hours.
+
+One qualification matters and cuts in the community's favour: their claim is about *the exact
+later-retained object*, whereas this test matches at **family level** (`contentdm|cdm16022`). They
+may be right at object level while this result stands at family level. The published `notes` do not
+expose the object identifier, so the stronger test is not yet runnable. The USAspending row is a
+weak test for the same reason — that host appears throughout the corpus from 24 May, so "earliest
+occurrence" is not the right comparator for an exact route.
+
+Recorded as: **partial corroboration, with the specific "precedes" annotation unverified and
+contradicted at family level for the ContentDM pair.**
+
+## Two community counts that do not survive inspection
+
+**"4,285 shortener candidates" should not be used.** Sampling the index, entries share one identical
+source path — `candidate-sites/goto-unm/7t6-o.body` — with differing content hashes. That is a
+source-assignment artifact, not 4,285 distinct short links.
+
+**"458 paste candidates" is mostly ordinary pastebin content.** The visible entries are generic
+sysadmin material on `paste.steamr.com` — *7050 benchmark*, *Ansible Facts Example*, *CS Rocky Linux
+Kickstart*, *Foreman Answers*. Only `site-test.nsi.bg` and `markdown.new` are on-theme.
+
+The two **small** sets are the real ones:
+
+- **`extra_wiki_candidate` (13)** — `ludism-live/pages/FedRefB`, `ludism-live/pages/AubergineStew`,
+  and `candidate-sites/tmcleod-apchem/revisions/OpenAIRegCFTest-r1` and `-r10`. **`FedRefB`
+  independently confirms the ludism.org/sandbox pattern match** in [03](03-site-inventory.md), which
+  had been inference from naming and timing alone.
+- **`package_text_candidate` (12)** — gem internals: `atlas-qa-snapshot-696b16c7-0.0.1.gem/lib/*.rb`,
+  `/payload/README.txt`, `/payload/SHA256SUMS.txt`, `atlas_qa_handoff_20260528230548-0.0.1.gem/README.md`.
+
+This is the general hazard with these datasets: the headline counts are dominated by weak candidate
+lanes, while the evidentially strong material sits in sets of ten to twenty.
+
 ## Where this repo supersedes the community accounts
 
 On the August fleet envelopes, `swarm-ai-research` reports only AWS activity on `SandBox` and infers
