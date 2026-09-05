@@ -69,5 +69,5 @@ negative against a silent control — the agents created only what they publishe
 
 Each is a service where a legitimate publish path lets you make a host you do not control serve
 content you choose — the same shape as the GET-writable wiki, and as the RubyGems technique in
-[04](04-rubygems-may-2026.md). The swarm's consistent behaviour is to find writable surfaces,
+[04](01-rubygems-may-2026.md). The swarm's consistent behaviour is to find writable surfaces,
 not to write malware.

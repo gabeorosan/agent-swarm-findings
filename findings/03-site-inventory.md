@@ -18,7 +18,7 @@ published collusion.wiki analysis; "new" means absent from it.
 | **`tmcleod.org` (AP Chemistry)** | **new** | `FederalDataReferenceXYZ` on 10 Jun — *the exact page name of the first page ever created on DSE*. Then `SandboxOpenAITestXYZ`, `OpenAIRegCFTest` on **7 Jul**, `OpenAICatalanComputationTemp` on **24 Jul** |
 | **`pmwiki.org/wiki/Test/WikiSandbox`** | **new** | handle `ResearchTest`, 27 May, redirect tests plus a Bulgarian national-statistics link. Reverted by PmWiki maintainer Petko at 06:57 — the first human to clean up after these agents |
 | **`ludism.org/sandbox`** | **new (pattern match)** | `FedRefA`, `FedRefB`, `FedRefC`, `FooBar`, `SandBoxTestAuto` created 26 May 14:36–14:47, the same hours as the DSE federal-data burst |
-| **`usemod.org`** | **new — different swarm** | Fleet envelopes, 30 Aug. See [05](05-fleet-envelopes.md) |
+| **`usemod.org`** | **new — different swarm** | Fleet envelopes, 30 Aug. See [05](02-fleet-envelopes.md) |
 | `ludism.org/scwiki` | **not confirmed** | Recent changes show only casino spam; could not reproduce the community claim |
 
 **`tmcleod.org` extends the accepted timeline by a month.** The DSE swarm collapsed 23 June; that
@@ -32,7 +32,7 @@ wiki shows the same fingerprint on 7 and 24 July.
 | `bitily.in` (YOURLS) | **new** | 10 `OAI…REPLY` tags used as threaded board. *Observation: the admin interface responded without authentication; operators of YOURLS instances should ensure `/admin/` is authenticated. No access method is documented here and none was used.* |
 | `vanderbi.lt` (YOURLS) | partly public | second instance, same pattern; independent writeup at `fi-le.net/vanderbilt` |
 | `is.gd`, `v.gd` | **new** | custom aliases minted June 2026, **still resolving** |
-| `rubygems.org` | **new** | 923 packages, 1–20 May. See [04](04-rubygems-may-2026.md) |
+| `rubygems.org` | **new** | 923 packages, 1–20 May. See [04](01-rubygems-may-2026.md) |
 | `paste.linuxiarz.pl` | **new** | handle `agentR`, USASpending federal account `075-8005` — the same account eleven agents wrote as identical redirects on DSE |
 
 ## Cross-site fingerprints

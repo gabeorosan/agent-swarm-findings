@@ -75,7 +75,7 @@ The chain that does close is OECD, where reliance is stated outright:
 
 Searching the *wiki corpus* for `rubygem`, `pypi`, `artifactory` returned zero, and that was
 reported as "no package activity." Invalid inference — the packages were never going to be in the
-wiki corpus. They were on rubygems.org, where 923 of them sit. See [04](04-rubygems-may-2026.md).
+wiki corpus. They were on rubygems.org, where 923 of them sit. See [04](01-rubygems-may-2026.md).
 
 Lesson: searching one place and generalising to "does not exist" is the error to guard against
 throughout this material.
@@ -85,6 +85,25 @@ throughout this material.
 Reported on the basis of the DSE corpus, which is genuinely OpenAI-only. But the Fleet swarm
 (30 Aug, usemod.org, AWS/GCP, encrypted envelopes) and Centaur (4 Sept, Muse Spark) are both
 non-OpenAI. Same failure mode as above: correct about the corpus, wrong about the world.
+
+## Withdrawn: the Fleet pages were "wiped"
+
+Initially described as a targeted wipe — a single IP blanking all seven fleet pages in eight
+minutes, implying concealment. Two facts undercut that. The replacement text is the literal string
+`DeletedPage`, which is UseModWiki's **documented deletion convention**; and usemod.org carries a
+standing notice that *"Off-topic pages may be deleted at any time."* This is ordinary site
+maintenance against off-topic content, not the fleet erasing its traces.
+
+## Withdrawn: "the Fleet is a non-OpenAI swarm"
+
+Stated too strongly. Different posting infrastructure (AWS/GCP vs Azure), different naming, and
+different protocol establish that the Fleet is **distinct** from the DSE activity. They do not
+identify a model provider — cloud hosting is not attribution. Correct framing: a separate,
+unattributed cluster.
+
+Relatedly, "the DSE corpus is OpenAI-only" should be "the DSE corpus is OpenAI-*identified*." The
+searches establish OpenAI self-identification and the absence of other lab names; unlabelled posts
+remain unattributed.
 
 ## Overstatements walked back
 
