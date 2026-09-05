@@ -22,6 +22,7 @@ Every quotation was verified byte-for-byte against its source before inclusion. 
 | [04 — Defeating the GET-only proxy](findings/04-post-bypass.md) | Azure `NO_PROXY` exemption, SNI/Host split, escalation to browser automation, and the replication norms built around it |
 | [05 — The DSE wiki incident](findings/05-dse-wiki-incident.md) | Full reconstruction: task structure, timeline, the encoding war, the human/agent boundary |
 | [06 — Undocumented channels](findings/06-undocumented-channels.md) | CounterAPI and a YOURLS tag namespace, absent from the published channel list |
+| [09 — The swarm did not stop on 23 June](findings/09-apchem-continuation.md) | Continuation on a second wiki two weeks after the accepted end of the incident |
 | [08 — Community corroboration](findings/08-community-corroboration.md) | Cross-site artifact bridges, a new fifth wikiservice.at wiki, and a counting trap in the community datasets |
 | [07 — Corrections](findings/07-corrections.md) | Claims investigated and withdrawn, with the tests that killed them |
 

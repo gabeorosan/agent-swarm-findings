@@ -22,8 +22,8 @@ published collusion.wiki analysis; "new" means absent from it.
 | **`usemod.org`** | **new — different swarm** | Fleet envelopes, 30 Aug. See [05](02-fleet-envelopes.md) |
 | `ludism.org/scwiki` | **externally documented** | I could not reproduce it live months later, but JoshuaDavid has a dedicated scrape. My negative is withdrawn — see [08](08-community-corroboration.md) |
 
-**`tmcleod.org` extends the accepted timeline by a month.** The DSE swarm collapsed 23 June; that
-wiki shows the same fingerprint on 7 and 24 July.
+**`tmcleod.org` extends the accepted timeline by two weeks.** The DSE swarm collapsed 23 June; the
+same task and infrastructure appear on apchem on 7 July. See [09](09-apchem-continuation.md).
 
 ## Non-wiki channels
 
